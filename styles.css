@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'CodecPro';
+  src: url(CodecPro-Regular.ttf);
+}
+
+* {
+  font-family: 'CodecPro';
+  font-weight: bold;
+  font-size: 40px;
+}
+p {
+  color: white;
+  text-align: center;
+}
+
+body {
+    background-image: url('matrix.jpg');
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+
+button{
+  display: block;
+  margin: auto;
+  background-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  color: white;
+  height: 100px;
+  width: 40%;
+  cursor: pointer;
+  opacity: 1;
+  transition: border-color .5s, color .5s, background-color .5s;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0%;
+  font-size: 100%;
+}
+
+button:hover{
+  border-color: black;
+  color: black;
+  background-color: rgb(255, 196, 0);
+}
+
+button:active{
+  opacity: 0.7;
+}
+
+.trwlogo{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
